@@ -3,7 +3,7 @@
 public class StoryNode {
     public String description;
     public StoryNode[] choices;
-    public boolean isEnding;
+    public boolean isEnding; 
     public int sceneId;
 
     public StoryNode(String desc, int maxChoices, int id) {
